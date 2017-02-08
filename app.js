@@ -1,3 +1,5 @@
-$(".btn").click(function(){
-      alert("This is an awesome page!");
+$(document).ready(function () {
+  $("#button").click(function () {
+    alert("This app is awesome!");
+  });
 });
